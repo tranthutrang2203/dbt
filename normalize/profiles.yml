@@ -1,0 +1,16 @@
+config:
+  partial_parse: true
+  printer_width: 120
+  send_anonymous_usage_stats: false
+  use_colors: true
+normalize:
+  outputs:
+    prod:
+      database: BID
+      password: Trang@123
+      port: 3306
+      schema: BID
+      server: 192.168.0.111
+      type: mysql
+      username: trangtt_local
+  target: prod
